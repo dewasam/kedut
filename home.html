@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Web</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <header>
+        <div class="header">
+            <img src="logo.png.jpg" alt="Header Image"   width="80" right="100">
+            </div>
+        <h1>Kedai Sudut</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="order.html">Pemesanan</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+        <div class="cover">
+            <h1>Selamat Datang di Website Kami</h1>
+            <p>Temukan informasi dan layanan terbaik di sini.</p>
+            <a href="javascript:void(0);" class="btn" onclick="goToNextPage()">Next</a> 
+        </div>
+    
+        <script>
+            function goToNextPage() {
+                window.location.href = "menu.html"; 
+            }
+            
+        </script>
+    </body>
